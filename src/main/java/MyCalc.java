@@ -10,13 +10,13 @@ class MyCalc extends WindowAdapter implements ActionListener {
     double num1, num2, check;
 
     MyCalc() {
-//        f = new Frame("Калькулятор");
-//        l1 = new Label();
-//        l1.setBackground(Color.LIGHT_GRAY);
-//        l1.setBounds(50, 50, 260, 60);
-//        Font myFont = new Font("Courier New", 2, 19);
-//        l1.setFont(myFont);
-//
+        f = new Frame("Калькулятор");
+        l1 = new Label();
+        l1.setBackground(Color.LIGHT_GRAY);
+        l1.setBounds(50, 50, 260, 60);
+        Font myFont = new Font("Courier New", 2, 19);
+        l1.setFont(myFont);
+
 
         but1 = new Button("1");
         but1.setBounds(50, 340, 50, 50);
